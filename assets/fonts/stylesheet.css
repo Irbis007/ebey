@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'Market Sans';
+  src: url('./MarketSans-Thin.otf');
+  font-weight: 100;
+}
+@font-face {
+  font-family: 'Market Sans';
+  src: url('./MarketSans-Light.otf');
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'Market Sans';
+  src: url('./MarketSans-Regular.otf');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Market Sans';
+  src: url('./MarketSans-Medium.otf');
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Market Sans';
+  src: url('./MarketSans-SemiBold.otf');
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'Market Sans';
+  src: url('./MarketSans-Bold.otf');
+  font-weight: 700;
+}
+
+
+
+@font-face {
+  font-family: 'Helvetica';
+  src: url('./helvetica_regular.otf');
+  font-weight: 400;
+}
+
