@@ -21,10 +21,12 @@ a{
 /* Header */
 
 .header{
+  position: relative;
   display: flex;
   align-items: center;
   width: 100%;
   padding: 15px 16px;
+  z-index: 10000;
 }
 
 .header__logo{
@@ -171,9 +173,11 @@ a{
 /* SHIP TO */
 
 .ship-to{
+  position: relative;
   display: flex;
   align-items: end;
   padding: 0 16px;
+  z-index: 1000;
 }
 
 .ship-to__icon{
@@ -545,12 +549,17 @@ a{
   color: #707070;
 }
 
+.info__value{
+  flex-shrink: 0;
+  display: block;
+}
+
 /* PRELOADER */
 
 .preloader{
   display: none;
   position: fixed;
-  top: 90px;
+  top: 0;
   left: 0;
   bottom: 0;
   right: 0;
@@ -644,7 +653,7 @@ a{
 }
 
 @media (max-width: 767px) {
-  .preloader{
-    padding-top: 30px;
+  .preloader__title{
+    font-size: 28px;
   }
 }
