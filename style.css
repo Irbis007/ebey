@@ -94,7 +94,7 @@ a{
   background-color: #fff;
 
   transition: right, .3s;
-  z-index: 1000;
+  z-index: 100000;
 }
 
 .menu_active{
